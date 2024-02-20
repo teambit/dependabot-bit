@@ -1,5 +1,7 @@
 # Update Bit Components with GitHub's Dependabot
 
+Solve the problem of updating consuming projects of your components by utilizing Dependabot and Bit together. This way when new versions of components are available you get automated PRs to update the components you consume.
+
 This repository contains example configuration and workflow for how a project that depends on Bit Components as packages in `package.json` can utilize GitHub's Dependabot feature to get automated PRs for updating dependencies.
 
 ## What you need?
@@ -13,6 +15,7 @@ This repository contains example configuration and workflow for how a project th
 
 See the below links from GitHub to learn more:
 
+- [Setting up `npmrc` for installing Bit components](https://bit.dev/reference/packages/npmrc)
 - [Using private registries with Dependabot](https://github.blog/2021-03-15-dependabot-private-dependencies/)
 - [Setting version updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#scheduleinterval)
 - [Configuring Dependabot for NPM registries](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/guidance-for-the-configuration-of-private-registries-for-dependabot#npm)
