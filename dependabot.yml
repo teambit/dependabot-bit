@@ -1,6 +1,16 @@
+version: 2
+
 registries:
-  npm-github:
+  npm-bit:
     type: npm-registry
     url: https://node-registry.bit.cloud
     token: ${{secrets.DEPENDABOT_TOKEN}}
     replace-base: true
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    allow:
+      - dependency-name: "@itaysso/*"
