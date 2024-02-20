@@ -5,11 +5,11 @@
 
 version: 2
 registries:
-  npm-bit:
+  npm-npmjs:
     type: npm-registry
     url: https://node-registry.bit.cloud
     token: ${{secrets.DEPENDABOT_TOKEN}}
-    replace-base: true
+    replaces-base: true
 updates:
   - package-ecosystem: "npm"
     directory: "/"
