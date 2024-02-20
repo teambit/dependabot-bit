@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@itaysso/dependabot-test.my-component": "^0.0.2"
+    "@itaysso/dependabot-test.my-component": "^0.0.3"
   }
 }
