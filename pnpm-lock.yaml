@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@itaysso/dependabot-test.my-component':
+    specifier: ^0.0.1
+    version: 0.0.1
+
+packages:
+
+  /@itaysso/dependabot-test.my-component@0.0.1:
+    resolution: {integrity: sha512-A6sRgJr7x7JvYqftAnc1ugxLW3HEPRpuUUx4StZQCVeIkNSOYfD6ht7XuPdGJXFtM+uie92B1CALLbLpegYODg==}
+    dev: false

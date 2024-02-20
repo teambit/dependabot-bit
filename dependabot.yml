@@ -1,0 +1,6 @@
+registries:
+  npm-github:
+    type: npm-registry
+    url: https://node-registry.bit.cloud
+    token: ${{secrets.DEPENDABOT_TOKEN}}
+    replace-base: true
