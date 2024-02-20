@@ -5,7 +5,7 @@
 
 version: 2
 registries:
-  npm-npmjs:
+  npm-bit:
     type: npm-registry
     url: https://node-registry.bit.cloud
     token: ${{secrets.DEPENDABOT_TOKEN}}
@@ -17,3 +17,5 @@ updates:
       interval: "daily"
     allow:
       - dependency-name: "@itaysso/*"
+    registries:
+      - npm-bit
