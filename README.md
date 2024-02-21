@@ -2,6 +2,8 @@
 
 Solve the problem of updating consuming projects of your components by utilizing Dependabot and Bit together. This way when new versions of components are available you get automated PRs to update the components you consume.
 
+[YouTube video toturial on how this works and how to set up](https://www.youtube.com/watch?v=PZ2MhC5N6uI)
+
 This repository contains example configuration and workflow for how a project that depends on Bit Components as packages in `package.json` can utilize GitHub's Dependabot feature to get automated PRs for updating dependencies.
 
 ## What you need?
