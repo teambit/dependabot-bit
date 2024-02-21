@@ -6,11 +6,11 @@ settings:
 
 dependencies:
   '@itaysso/dependabot-test.my-component':
-    specifier: ^0.0.3
-    version: 0.0.3
+    specifier: ^0.0.4
+    version: 0.0.4
 
 packages:
 
-  /@itaysso/dependabot-test.my-component@0.0.3:
-    resolution: {integrity: sha512-u0CsRjYdlNCCvgQ0E54hW+XFcRF87OyJPHmZ8GsDvNphkDGD0q+LKu22+gZQhgAVRbGIKqXMtCkpLWuzy/ownQ==}
+  /@itaysso/dependabot-test.my-component@0.0.4:
+    resolution: {integrity: sha512-N3vx7rUzwJ09kFm7LEcCIXLZFCCDB0x7sELPM5KCpic+/ystNZ1Ud6bJ496m3MnTJzve+KIz9XoD6i6hgIdPhw==}
     dev: false
